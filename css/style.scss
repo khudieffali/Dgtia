@@ -1,0 +1,14 @@
+@import '_mixin';
+@import '_header';
+@import '_footer';
+@import '_home';
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}

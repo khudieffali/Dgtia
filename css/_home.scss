@@ -1,0 +1,1249 @@
+// Provide section start 
+#provide {
+    position: relative;
+
+    .provide-all {
+        position: relative;
+        padding: 100px 0;
+        overflow: hidden;
+
+        .img-layer {
+            position: absolute;
+            width: 100%;
+            left: 0%;
+            top: 7%;
+            animation: LayerAni 4s infinite;
+        }
+
+        .provide-text {
+            .container {
+                .row {
+                    .email-one {
+                        position: relative;
+                        padding: 0 60px;
+
+                        h1 {
+                            font-size: 60px;
+                            font-weight: 700;
+                            color: black;
+                            margin-bottom: 15px;
+                        }
+
+                        p {
+                            margin-top: 15px;
+                            font-weight: 500;
+
+                            a {
+                                color: #ff790d;
+                            }
+                        }
+
+                        .email-input {
+                            .input-group {
+                                position: relative;
+
+                                .group-email {
+                                    width: 100%;
+                                    border-radius: 5px;
+                                    border: 3px solid #03030FCC;
+                                    text-align: right;
+                                    padding: 10px 0;
+
+                                    input {
+                                        width: 100%;
+                                        padding: 15px;
+                                        outline: none;
+                                        background: transparent;
+                                        border: none;
+                                    }
+
+                                    i {
+                                        font-size: 42px;
+                                        color: #c6b2ac;
+                                        margin-left: 15px;
+                                    }
+                                }
+
+                                button {
+                                    position: absolute;
+                                    top: 50%;
+                                    transform: translateY(-50%);
+                                    right: 15px;
+                                    background: #ff790d;
+                                    border-radius: 3px;
+                                    font-size: 17px;
+                                    color: #fff;
+                                    font-weight: 500;
+                                    letter-spacing: .42px;
+                                    text-align: center;
+                                    text-transform: uppercase;
+                                    outline: none;
+                                    border: none;
+                                    padding: 12px 30px;
+                                    transition: .3s ease-in-out;
+
+                                    &:hover {
+                                        background: #0c0d24;
+                                        color: #ff790d;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .image-girl {
+                        overflow: hidden;
+                        position: absolute;
+                        top: 0%;
+                        right: -7%;
+                        animation: AgencyAni 4s infinite;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+// Provide section End 
+
+// Development section start 
+#development {
+    position: relative;
+    padding: 100px 0;
+
+    .develop-info {
+        position: absolute;
+        width: 100%;
+        top: 20%;
+        animation: developImg 4s infinite;
+    }
+
+    .dev-all {
+        .container {
+            .row {
+                .develop-boxes {
+                    position: relative;
+                    background: #e4f5fd;
+
+                    .dev-box {
+                        transition: .5s ease-in-out;
+                        border: 1px dashed #e4f5fd;
+                        padding: 10px;
+
+                        .dev-box-little {
+                            transition: .5s ease-in-out;
+                            padding: 30px;
+
+                            .box-text {
+                                h3 {
+                                    margin: 15px;
+
+                                    a {
+                                        color: black;
+
+                                        &:hover {
+                                            color: #ff790d;
+                                        }
+                                    }
+                                }
+
+                                p {
+                                    font-size: 20px;
+                                    font-weight: 500;
+                                    color: #03030FCC;
+                                }
+                            }
+
+                        }
+
+
+                    }
+
+                }
+
+
+            }
+        }
+
+    }
+
+
+}
+
+
+// Development section end 
+
+// Agency Section start
+#agency {
+    background: #e4f5fd;
+    position: relative;
+
+    .agency-boxes {
+        .agency-background {
+            padding: 50px;
+            position: absolute;
+            top: 10%;
+            width: 100%;
+            animation: AgencyAni 3s infinite;
+        }
+
+        .agency-all {
+            position: relative;
+            padding: 80px 0px;
+            overflow: hidden;
+
+            .digital {
+                .digital-agency {
+                    .text-agency {
+
+                        h5 {
+                            color: #ff790d;
+                            font-weight: 500;
+                            margin-bottom: 15px;
+                        }
+
+                        h1 {
+                            font-size: 48px;
+                            color: black;
+                            font-weight: 700;
+                            margin-bottom: 30px;
+                        }
+
+                        p {
+                            color: #03030FCC;
+                            font-size: 24px;
+                            margin-bottom: 25px;
+                            line-height: 2.5rem;
+                            font-weight: 500;
+
+                        }
+
+                    }
+
+                    ul {
+                        li {
+                            list-style: none;
+                            color: #03030FCC;
+                            font-size: 19px;
+                            line-height: 3.5rem;
+                            font-weight: 400;
+                            opacity: .9;
+
+                            i {
+                                font-size: 18px;
+                                font-weight: 300;
+                                padding: 8px 10px;
+                                border-radius: 50%;
+                                transition: .3s ease-in-out;
+
+                                &:hover {
+                                    background-color: #ff790d;
+                                }
+                            }
+                        }
+                    }
+
+
+
+                    button {
+                        text-align: center;
+                        padding: 20px 40px;
+                        font-size: 18px;
+                        font-weight: 600;
+                        border-radius: 3px;
+                        color: #03030f;
+                        letter-spacing: .42px;
+                        background: #fbbe95;
+                        position: relative;
+                        overflow: hidden;
+                        border: none;
+                        transition: 0.3s ease-in-out;
+                        z-index: 1;
+                        margin-top: 40px;
+
+                        i {
+                            font-weight: 400;
+                            margin-left: 10px;
+                        }
+
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            top: -20%;
+                            left: -10%;
+                            padding: 25px;
+                            border-radius: 50%;
+                            opacity: 0.7;
+                            background-color: #ffa66a;
+                            transition: .5s ease-in-out;
+                            z-index: -1;
+                        }
+
+                        &:hover {
+                            color: white;
+                            z-index: 1;
+
+                            &::before {
+                                padding: 100%;
+                                border-radius: 0;
+                            }
+                        }
+                    }
+                }
+
+                .digital-img {
+                    position: relative;
+                    right: -10%;
+                    padding: 10px 15px;
+                }
+
+
+            }
+
+
+        }
+    }
+
+
+}
+
+// Agency Section end
+
+// Discovery Section Start 
+#discovery {
+    position: relative;
+    padding: 100px 0;
+
+    .all-discovery {
+        overflow: hidden;
+
+        .discovery-background {
+            position: absolute;
+            right: 0;
+            width: 97%;
+            top: 15%;
+            animation: developImg 3s infinite;
+        }
+
+        .all-planning {
+            position: relative;
+
+            .working {
+                margin: auto;
+
+                .working-text {
+                    h5 {
+                        font-size: 15px;
+                        color: #ff790d;
+                        font-weight: 700;
+                        margin-bottom: 15px;
+                    }
+
+                    h1 {
+                        font-size: 48px;
+                        color: black;
+                        font-weight: 700;
+                        margin-bottom: 20px;
+                    }
+
+                    p {
+                        color: #03030FCC;
+                        font-size: 22px;
+                        margin-bottom: 20px;
+                        font-weight: 500;
+                    }
+                }
+            }
+
+            .planning {
+                margin-top: 50px;
+                padding: 30px;
+
+                .planning-boxes {
+                    padding: 100px 20px 0px 20px;
+
+                    #visibile {
+                        visibility: hidden;
+                    }
+
+                    .dashed-line {
+                        position: relative;
+                        left: 60%;
+                        width: 100%;
+                        bottom: 0%;
+                    }
+
+                    .planning-box {
+                        .planning-img {
+                            position: relative;
+                            width: 40%;
+                            margin: auto;
+                            background-color: #f8e7d6;
+                            padding: 30px 0px;
+                            border-radius: 50%;
+                            margin-bottom: 40px;
+
+                            img {
+                                margin: auto;
+                            }
+                        }
+
+                        .planning-text {
+                            margin-top: 50px;
+                            padding: 20px;
+
+                            h3 {
+                                font-size: 26px;
+                                color: black;
+                                font-weight: 700;
+                                margin-bottom: 20px;
+                            }
+
+                            p {
+                                font-size: 18px;
+                                color: #03030FCC;
+                            }
+                        }
+
+                    }
+
+
+                }
+
+            }
+        }
+    }
+
+
+}
+
+// Discovery Section End 
+
+// Future section Start 
+#future {
+    .all-future {
+        position: relative;
+        padding: 50px 0;
+
+        .future-background {
+            position: absolute;
+            top: 0%;
+            right: 12%;
+            animation: AgencyAni 4s infinite;
+        }
+
+        .all-customer {
+            position: relative;
+            z-index: 40;
+
+            .container {
+                .row {
+                    .optimization {
+                        .top-text {
+                            h1 {
+                                font-size: 48px;
+                                color: black;
+                                font-weight: 700;
+                                margin-bottom: 30px;
+                            }
+
+                            p {
+                                color: #03030FCC;
+                                font-size: 18px;
+                                margin-bottom: 25px;
+                                line-height: 2.5rem;
+                                font-weight: 500;
+                            }
+                        }
+
+                        .all-counters {
+                            .counters {
+                                margin-bottom: 15px;
+
+                                p {
+                                    font-size: 20px;
+                                    font-weight: 500;
+                                    width: 100%;
+
+                                    .one-percent {
+                                        font-size: 16px;
+                                        margin-right: 18px;
+                                    }
+
+                                    .two-percent {
+                                        font-size: 16px;
+                                    }
+
+                                    .three-percent {
+                                        font-size: 16px;
+                                        margin-right: 45px;
+                                    }
+                                }
+
+                                .black-design {
+                                    width: 100%;
+                                    padding: 4px 0px;
+                                    border: 1px solid rgb(221, 217, 217);
+
+                                    .child-design-one {
+                                        width: 92%;
+                                        padding: 5px;
+                                        margin-left: 5px;
+                                        background-color: black;
+                                    }
+
+                                    .child-design-two {
+                                        width: 98%;
+                                        padding: 5px;
+                                        margin-left: 5px;
+                                        background-color: black;
+                                    }
+
+                                    .child-design-three {
+                                        width: 87%;
+                                        padding: 5px;
+                                        margin-left: 5px;
+                                        background-color: black;
+                                    }
+
+                                }
+                            }
+                        }
+                    }
+
+                    .client {
+                        .client-all {
+                            overflow: hidden;
+
+                            position: relative;
+                            padding: 100px 0;
+
+                            .top-customer {
+                                .happy {
+                                    position: absolute;
+                                    top: 3%;
+                                    left: 16%;
+                                    background-color: white;
+                                    padding: 20px 15px 20px 15px;
+                                    border-radius: 15px;
+                                    box-shadow: 2px 5px 5px 2px #b9b9bb;
+                                    z-index: 5;
+
+                                    h2 {
+                                        color: #65d0ff;
+                                        font-size: 40px;
+                                        margin-bottom: 15px;
+                                        font-weight: 700;
+
+                                        i {
+                                            font-size: 30px;
+                                        }
+                                    }
+
+                                    h3 {
+                                        font-size: 18px;
+                                        margin-bottom: 5px;
+                                        font-weight: 500;
+                                    }
+
+                                    p {
+                                        font-weight: 400;
+                                    }
+                                }
+
+                            }
+
+                            .center-img {
+                                .img-absolute {
+                                    position: relative;
+                                    top: 0;
+                                    left: 13%;
+                                }
+                            }
+
+                            .bottom-customer {
+                                position: absolute;
+                                bottom: 4%;
+                                right: 16%;
+                                box-shadow: 2px 5px 5px 2px #b9b9bb;
+                                padding: 20px 50px 20px 20px;
+                                border-radius: 15px;
+                                background-color: white;
+
+                                .case {
+                                    h2 {
+                                        color: #fb4736;
+                                        font-size: 40px;
+                                        margin-bottom: 15px;
+                                        font-weight: 700;
+
+                                        i {
+                                            font-size: 30px;
+                                        }
+                                    }
+
+                                    h3 {
+                                        font-size: 18px;
+                                        margin-bottom: 5px;
+                                        font-weight: 500;
+                                    }
+
+                                    p {
+                                        font-weight: 400;
+                                    }
+
+                                    &::before {
+                                        content: "";
+                                        position: absolute;
+                                        background-color: #b8e9ff;
+                                        border-radius: 50%;
+                                        bottom: -13%;
+                                        right: -10%;
+                                        z-index: -1;
+                                        animation: futureAni 3s infinite;
+                                    }
+                                }
+
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+// Future section End 
+
+// Solutions section start
+#solutions {
+    padding: 50px 0;
+
+    .all-solutions {
+        background-image: url(/img/2-5.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .top-solutions {
+            padding: 50px 0;
+
+            .container {
+                .row {
+                    .provide {
+                        h5 {
+                            font-size: 20px;
+                            color: #ff790d;
+                            font-weight: 700;
+                            margin-bottom: 18px;
+                        }
+
+                        h1 {
+                            font-size: 48px;
+                            color: black;
+                            font-weight: 700;
+                            margin-bottom: 25px;
+                        }
+
+                        p {
+                            color: #03030FCC;
+                            font-size: 22px;
+                            margin-bottom: 20px;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+
+        .bottom-solutions {
+            z-index: 60;
+            padding: 40px 18px;
+
+            .all-marketing {
+                .marketing {
+                    flex-wrap: wrap;
+
+                    .seo-marketing {
+                        background-color: rgb(247, 247, 247);
+                        border-radius: 5px;
+                        margin-right: 20px;
+
+                        .marketing-one {
+                            padding: 50px 35px;
+
+                            .img-marketing {
+                                margin-bottom: 15px;
+                            }
+
+                            .text-marketing {
+                                margin-bottom: 25px;
+
+                                h3 {
+                                    margin-bottom: 20px;
+
+                                    a {
+                                        font-size: 26px;
+                                        color: black;
+                                        font-weight: 700;
+                                    }
+
+                                }
+
+                                p {
+                                    font-size: 20px;
+                                    color: #03030FCC;
+                                }
+
+                            }
+
+                            span {
+                                a {
+                                    color: #ff790d;
+                                    font-size: 18px;
+                                    font-weight: 600;
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Solutions section End
+
+// Valuable section start 
+#valuable {
+    .all-valuable {
+        position: relative;
+         
+        .valuable-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            animation: GirlAni 3s infinite;
+        }
+
+        .container {
+            .row {
+                .story {
+                    .valuable-pad {
+                        .left-success {
+                            padding: 25px 0px 20px 100px;
+
+                            .top-number {
+                                margin-bottom: 25px;
+
+                                .iconNumber {
+                                    width: 16%;
+                                    padding: 18px 0px;
+                                    background-color: #fbbe95;
+                                    border-radius: 50%;
+                                    text-align: center;
+
+                                    h3 {
+                                        font-size: 40px;
+                                    }
+                                }
+
+                            }
+
+                            .center-text {
+                                h1 {
+                                    font-size: 48px;
+                                    color: black;
+                                    font-weight: 700;
+                                    margin-bottom: 30px;
+                                }
+
+                            }
+
+                            .bottom-text {
+                                p {
+                                    color: rgb(78, 76, 76);
+                                    font-size: 22px;
+                                    margin-bottom: 25px;
+                                    font-weight: 500;
+                                }
+
+                                span {
+                                    color: rgb(78, 76, 76);
+                                    font-size: 22px;
+                                    margin-bottom: 25px;
+                                    font-weight: 500;
+                                }
+                            }
+
+                        }
+
+                        .ghost {
+                            position: relative;
+                            padding: 0px 30px;
+                            background-color: white;
+                            margin-left: 25px;
+                            z-index: 1;
+                            .ghost-all{
+                            overflow: hidden;
+                                .slider-ghost {
+                                    background-color: white;
+                                    padding: 40px 0;
+                                    animation: SliderAni .2s forwards;
+                                    .img-ghost {
+                                        .img-border {
+                                            margin: auto;
+                                            width: 35%;
+                                            border-radius: 50%;
+                                            margin-bottom: 30px;
+                                        }
+                                    }
+    
+                                    .ghost-text {
+                                        padding: 0px 20px;
+    
+                                        h3 {
+                                            color: black;
+                                            font-size: 26px;
+                                            margin-bottom: 20px;
+                                            font-weight: 700;
+                                        }
+    
+                                        p {
+                                            color: #03030FCC;
+                                            font-size: 22px;
+                                            margin-bottom: 20px;
+                                            font-weight: 500;
+                                        }
+                                    }
+    
+                                }
+                            }
+                           
+
+                            .icon-slider {
+                                position: absolute;
+                                width: 42%;
+                                border-radius: 50%;
+                                bottom: -18%;
+                                left: 50%;
+                                transform: translateX(-50%);
+                                background-color: #fbbe95;
+                                z-index: -1;
+
+                                .all-icon-slider {
+                                    position: relative;
+                                    padding: 100px 0;
+                                    border-radius: 50%;
+                                    overflow: hidden;
+
+                                    .left-icon {
+                                        position: absolute;
+                                        left: 24%;
+                                        top: 65%;
+                                        padding: 3px 18px;
+                                        background-color: white;
+                                        border-radius: 50%;
+                                        cursor: pointer;
+                                        i {
+                                            font-size: 30px;
+                                            font-weight: 400;
+                                        }
+
+                                    }
+
+                                    .right-icon {
+                                        position: absolute;
+                                        right: 24%;
+                                        top: 65%;
+                                        padding: 3px 18px;
+                                        background-color: white;
+                                        border-radius: 50%;
+                                        cursor: pointer;
+                                        i {
+                                            font-size: 30px;
+                                            font-weight: 400;
+                                        }
+                                    }
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Valuable section end 
+
+
+
+
+@keyframes GirlAni {
+    0% {
+        top: 0;
+
+
+    }
+
+    50% {
+        top: 3%;
+
+    }
+
+    100% {
+        top: 0%;
+    }
+}
+
+@keyframes LayerAni {
+    0% {
+        padding: 0;
+
+    }
+
+    50% {
+        padding: 10px;
+
+    }
+
+    100% {
+        padding: 0;
+    }
+}
+
+
+
+@keyframes developImg {
+    0% {
+        padding: 0;
+    }
+
+    50% {
+        padding: 0px 10px;
+    }
+
+    100% {
+        padding: 0;
+    }
+}
+
+@keyframes AgencyAni {
+    0% {
+        margin: 0;
+
+    }
+
+    50% {
+        margin: 15px 0;
+
+    }
+
+    100% {
+        margin: 0;
+    }
+}
+
+@keyframes futureAni {
+    0% {
+        padding: 25px;
+    }
+
+    50% {
+        padding: 35px;
+
+    }
+
+    100% {
+        padding: 25px;
+    }
+
+}
+@keyframes SliderAni {
+    from {opacity: .1}
+    to {opacity: 1}
+  }
+
+
+@include tablet {
+    #provide {
+        .provide-all {
+            overflow: visible;
+
+            .image-girl {
+                display: none;
+            }
+
+            .provide-text {
+                .container {
+                    .row {
+                        .email-one {
+                            width: 100%;
+                            left: 0;
+                            padding: 5px;
+
+                            h1 {
+                                font-size: 48px;
+                                line-height: 60px;
+                                margin-bottom: 32px;
+                            }
+
+                        }
+                    }
+                }
+
+
+            }
+        }
+
+    }
+
+    #development {
+        .dev-all {
+            .container {
+                .row {
+                    .develop-boxes {
+                        .dev-box {
+                            .dev-box-little {
+                                padding: 0;
+                                margin: left;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #agency {
+        .agency-boxes {
+            .agency-background {
+                display: none;
+            }
+
+            .agency-all {
+                padding: 0%;
+
+                .digital {
+                    .digital-agency {
+                        padding: 0;
+                    }
+                }
+
+            }
+
+            .digital-img {
+                position: relative;
+            }
+        }
+    }
+
+    #discovery {
+        .all-discovery {
+            .discovery-background {
+                display: none;
+            }
+
+            .all-planning {
+                .planning {
+                    .planning-boxes {
+                        .dashed-line {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@include mobile {
+    #provide {
+        .provide-all {
+            .provide-text {
+                .container {
+                    .row {
+                        .email-one {
+                            width: 90%;
+                            left: 5%;
+                            margin: left;
+
+                            .email-input {
+                                .input-group {
+                                    flex-wrap: wrap;
+
+                                    button {
+                                        position: relative;
+                                        margin-top: 50px;
+                                        margin-left: 15px;
+                                    }
+
+                                }
+
+                            }
+
+                        }
+                    }
+                }
+
+
+                .image-girl {
+                    display: none;
+                }
+            }
+
+        }
+    }
+
+    #development {
+        .dev-all {
+            .container {
+                .row {
+                    .develop-boxes {
+                        .dev-box {
+                            padding: 0;
+                            margin-bottom: 20px;
+
+                            .dev-box-little {
+                                padding: 0;
+                                margin: left;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #agency {
+        .agency-boxes {
+            .agency-all {
+                position: relative;
+
+                .digital {
+                    .digital-agency {
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+
+                    }
+
+                    .digital-img {
+                        position: relative;
+                        bottom: -100%;
+                        left: 0%;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    #discovery {
+        .all-discovery {
+            .discovery-background {
+                display: none;
+            }
+
+            .all-planning {
+                .planning {
+                    .planning-boxes {
+                        .dashed-line {
+                            display: none;
+                        }
+
+                        .planning-box {
+                            .planning-img {
+                                width: 20%;
+                                padding: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@include big-tablet {
+    #provide {
+        .provide-all {
+            .provide-text {
+                .container {
+                    .row {
+                        .email-one {
+                            h1 {
+                                font-size: 40px !important;
+                                line-height: 55px;
+                                margin-bottom: 30px;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+    }
+
+    #development {
+        .dev-all {
+            .container {
+                .row {
+                    .develop-boxes {
+                        .dev-box {
+                            padding: 0;
+
+                            .dev-box-little {
+                                padding: 0;
+                                margin: left;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #agency {
+        .agency-boxes {
+            .agency-all {
+                .digital {
+                    .digital-agency {
+                        .text-agency {
+                            h1 {
+                                font-size: 35px;
+                                margin-bottom: 10px;
+                            }
+
+                            p {
+                                font-size: 20px;
+                                margin-bottom: 15px;
+
+                            }
+                        }
+
+                        ul {
+                            li {
+                                line-height: 30px;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+
+}

@@ -1,0 +1,503 @@
+//Loader
+.preloader{
+    background: #03030f;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 15;
+}
+
+
+// Header
+#header {
+    background: white;
+     width: 100%;
+     top: 0;
+     padding-bottom: 40px; 
+   
+    .container-fluid {
+        .row {
+            .all-header {
+                position: relative;
+                padding: 30px 15px 5px 10px;
+                .nav-left {
+                    // Logo
+                    .logo {
+                        img {
+                            width: 75%;
+                        }
+                    }
+                    // li
+                    .nav-menu {
+                        ul {
+                            margin-bottom: 0px;
+                            .menu-item {
+                                list-style: none;
+                                padding: 0 2px 0px 0;
+                                // li hover start
+                                    .sub-menu,.sub-menu-two,.sub-menu-three,.sub-menu-four,.sub-menu-five{
+                                        li{
+                                        &:hover{
+                                            a{
+                                                color: #ff790d;
+                                            }
+                                        }
+                                        .home-sub-menu,.home-sub-menu-two{
+                                            li{
+                                                &:hover{
+                                                    a{
+                                                        color: #ff790d;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                // li hover end 
+                                a {
+                                    font-size: 21px;
+                                    padding: 18px 20px 18px 0px;
+                                    display: block;
+                                    color: #03030FCC;
+                                    text-decoration: none;
+                                    i {
+                                        font-size: 12px;
+                                        color: #03030FCC;
+                                    }
+                                }
+
+                                ul {
+                                    background: white;
+                                    padding: 0;
+                                    opacity: 0;
+                                    visibility: hidden;
+                                    position: absolute;
+                                    left: 13%;
+                                    top: 90%;
+                                    border-radius: 5px;
+                                    box-shadow: 2px 2px 2px 2px rgb(214, 211, 211);
+                                    transition: .3s ease-in-out;
+                                    z-index: 15;
+
+                                    .little-menu-one {
+                                        list-style: none;
+                                        border-bottom: 1px solid rgb(196, 193, 193);
+                                        position: relative;
+
+                                        a {
+                                            padding: 10px 20px;
+                                            font-size: 17px;
+                                            font-weight: 500;
+                                            color: #03030FCC;
+                                            text-decoration: none;
+
+                                            i {
+                                                margin-left: 25px;
+                                                font-size: 12px;
+                                                color: #03030FCC;
+                                            }
+                                        }
+
+                                        .home-sub-menu {
+                                            width: 100%;
+                                            padding: 0px;
+                                            opacity: 0;
+                                            visibility: hidden;
+                                            position: absolute;
+                                            left: 100%;
+                                            top: 0%;
+                                            border-radius: 5px;
+                                            box-shadow: 2px 2px 2px 2px rgb(228, 222, 222);
+                                            transition: .3s ease-in-out;
+
+                                            li {
+                                                list-style: none;
+                                                border-bottom: 1px solid rgb(196, 193, 193);
+
+                                                a {
+                                                    // padding:10px 20px;
+                                                    font-size: 17px;
+                                                    font-weight: 500;
+                                                    color: #03030FCC;
+                                                    text-decoration: none;
+                                                }
+                                            }
+                                        }
+
+                                        &:hover {
+                                            .home-sub-menu {
+                                                opacity: 1;
+                                                visibility: visible;
+                                                animation: AniTwo .8s;
+                                            }
+                                        }
+                                    }
+
+                                    .little-menu-two {
+                                        list-style: none;
+                                        border-bottom: 1px solid rgb(196, 193, 193);
+                                        position: relative;
+
+                                        a {
+                                            padding: 10px 20px;
+                                            font-size: 17px;
+                                            font-weight: 500;
+                                            color: #03030FCC;
+                                            text-decoration: none;
+
+                                            i {
+                                                margin-left: 25px;
+                                                font-size: 12px;
+                                                color: #03030FCC;
+                                            }
+                                        }
+
+                                        .home-sub-menu-two {
+                                            width: 100%;
+                                            padding: 0;
+                                            opacity: 0;
+                                            visibility: hidden;
+                                            position: absolute;
+                                            left: 100%;
+                                            top: 0%;
+                                            border-radius: 5px;
+                                            box-shadow: 2px 2px 2px 2px rgb(214, 211, 211);
+                                            transition: .3s ease-in-out;
+
+                                            li {
+                                                list-style: none;
+                                                border-bottom: 1px solid rgb(196, 193, 193);
+
+                                                a {
+                                                    padding: 10px 20px;
+                                                    font-size: 17px;
+                                                    font-weight: 500;
+                                                    color: #03030FCC;
+                                                    text-decoration: none;
+                                                }
+                                            }
+                                        }
+
+                                        &:hover {
+                                            .home-sub-menu-two {
+                                                opacity: 1;
+                                                visibility: visible;
+                                                animation: AniTwo .8s;
+                                            }
+                                        }
+                                    }
+
+                                }
+
+                                .sub-menu-two {
+                                    padding: 0;
+                                    opacity: 0;
+                                    visibility: hidden;
+                                    position: absolute;
+                                    left: 20%;
+                                    top: 90%;
+                                    border-radius: 5px;
+                                    box-shadow: 2px 2px 2px 2px rgb(214, 211, 211);
+                                    transition: .8s ease-in-out;
+
+                                    .little-menu {
+                                        list-style: none;
+                                        border-bottom: 1px solid rgb(196, 193, 193);
+
+                                        a {
+                                            padding: 10px 50px 10px 10px;
+                                            font-size: 17px;
+                                            font-weight: 500;
+                                            color: #03030FCC;
+                                            text-decoration: none;
+                                        }
+                                    }
+
+                                }
+
+                                .sub-menu-three {
+                                    padding: 0;
+                                    opacity: 0;
+                                    visibility: hidden;
+                                    position: absolute;
+                                    left: 28%;
+                                    top: 90%;
+                                    border-radius: 5px;
+                                    box-shadow: 2px 2px 2px 2px rgb(214, 211, 211);
+                                    transition: .3s ease-in-out;
+
+                                    .little-menu {
+                                        list-style: none;
+                                        border-bottom: 1px solid rgb(196, 193, 193);
+
+                                        a {
+                                            padding: 10px 50px 10px 10px;
+                                            font-size: 17px;
+                                            font-weight: 500;
+                                            color: #03030FCC;
+                                            text-decoration: none;
+                                        }
+                                    }
+
+                                }
+
+                                .sub-menu-four {
+                                    padding: 0;
+                                    opacity: 0;
+                                    visibility: hidden;
+                                    position: absolute;
+                                    left: 37%;
+                                    top: 90%;
+                                    border-radius: 5px;
+                                    box-shadow: 2px 2px 2px 2px rgb(214, 211, 211);
+                                    transition: .3s ease-in-out;
+
+                                    .little-menu {
+                                        list-style: none;
+                                        border-bottom: 1px solid rgb(196, 193, 193);
+
+                                        a {
+                                            padding: 10px 50px 10px 10px;
+                                            font-size: 17px;
+                                            font-weight: 500;
+                                            color: #03030FCC;
+                                            text-decoration: none;
+                                        }
+                                    }
+
+                                }
+
+                                .sub-menu-five {
+                                    padding: 0;
+                                    opacity: 0;
+                                    visibility: hidden;
+                                    position: absolute;
+                                    left: 43%;
+                                    top: 90%;
+                                    border-radius: 5px;
+                                    box-shadow: 2px 2px 2px 2px rgb(214, 211, 211);
+                                    transition: .3s ease-in-out;
+
+                                    .little-menu {
+                                        list-style: none;
+                                        border-bottom: 1px solid rgb(196, 193, 193);
+
+                                        a {
+                                            padding: 10px 10px 10px 10px;
+                                            font-size: 17px;
+                                            font-weight: 500;
+                                            color: #03030FCC;
+                                            text-decoration: none;
+
+                                            i {
+                                                margin-left: 50px;
+                                                font-size: 12px;
+                                                color: #03030FCC;
+                                            }
+
+                                        }
+
+                                    }
+
+                                }
+
+
+                                &:hover {
+                                    a{
+                                        color:#ff790d;
+                                    }
+                                    
+                                    ul {
+                                        visibility: visible;
+                                        opacity: 1;
+                                        animation: myAni .7s;
+                                
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .nav-right {
+                    .menu-bar{
+                        display: none;
+                        i{
+                            padding: 12px;
+                            background: #ff790d;
+                            color: white;
+                            font-size: 20px;
+                            font-weight: 300;
+                        }
+                    }
+                    a {
+                        color: #03030FCC;
+                        font-size: 18px;
+                        font-weight: 500;
+                        position: relative;
+                        padding: 10px;
+                        &:hover{
+                            color: #ff790d;
+                        }
+
+                        i {
+                            font-weight: 300;
+                            font-size: 28px;
+                        }
+
+                        span {
+                            padding: 0px 6px;
+                            border-radius: 100%;
+                            background: #ff790d;
+                            font-size: 14px;
+                            color: white;
+                            position: absolute;
+                            top: 0%;
+                            right: 0%;
+                        }
+
+                        button {
+                            padding: 14px 30px;
+                            border: none;
+                            background-color: #65d0ff;
+                            border-radius: 3px;
+                            font-size: 17px;
+                            font-weight: 400;
+                            color: white;
+                            position: relative;
+                            overflow: hidden;
+
+                            
+                            i {
+                                color: white;
+                                font-weight: 100;
+                                font-size: 22px;
+                            }
+                            &:hover{
+                                &::before{
+                                  height: 100%;
+                                }
+                                .text-btn{
+                                    animation: BtnAni .5s forwards;
+                                }
+                            }
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                bottom: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 0%;
+                                background-color: #ff790d;
+                                transition: .4s ease-in-out;
+                                border-radius: 3px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@keyframes myAni {
+    0% {
+        top: 50%;
+    }
+
+    100% {
+        top: 90%;
+    }
+}
+@keyframes BtnAni {
+    0%{
+       transform: translateY(-150%);
+    top: 100%;
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+@keyframes AniTwo {
+    0% {
+        left: 0%;
+    }
+
+    100% {
+        left: 100%;
+
+
+    }
+}
+
+
+@include big-tablet{
+    #header{
+        .container-fluid{
+            .row{
+                .all-header{
+                    .nav-right{
+                        button{
+
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@include tablet{
+    #header{
+        .container-fluid{
+            .row{
+                .all-header{
+                    .nav-menu{
+                        display: none;
+                    }
+                    .nav-right{
+                        display: flex;
+                        align-items: center;
+                        .menu-bar{
+                            display: block;
+                            
+                        }
+                        button{
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@include mobile{
+    #header{
+        .container-fluid{
+            .row{
+                .all-header{
+                    .nav-right{
+                        display: flex;
+                        align-items: center;
+                        .menu-bar{
+                            display: block; 
+                            margin-right: 6px; 
+                        }
+                        .phone-number{
+                            display:none;
+                        }
+                        .Btn-Quote{
+                            display:none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
