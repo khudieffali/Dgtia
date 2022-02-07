@@ -1,55 +1,52 @@
-//Loader
-.preloader{
-    background: #03030f;
-    bottom: 0;
-    height: 100%;
-    left: 0;
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 100%;
-    z-index: 15;
-}
-
-
-// Header
+// Header Start
 #header {
     background: white;
-     width: 100%;
-     top: 0;
-     padding-bottom: 40px; 
-   
+    width: 100%;
+    top: 0;
+    padding-bottom: 40px;
+
     .container-fluid {
         .row {
             .all-header {
                 position: relative;
                 padding: 30px 15px 5px 10px;
+
                 .nav-left {
+
                     // Logo
                     .logo {
                         img {
                             width: 75%;
                         }
                     }
+
                     // li
                     .nav-menu {
                         ul {
                             margin-bottom: 0px;
+
                             .menu-item {
                                 list-style: none;
                                 padding: 0 2px 0px 0;
+
                                 // li hover start
-                                    .sub-menu,.sub-menu-two,.sub-menu-three,.sub-menu-four,.sub-menu-five{
-                                        li{
-                                        &:hover{
-                                            a{
+                                .sub-menu,
+                                .sub-menu-two,
+                                .sub-menu-three,
+                                .sub-menu-four,
+                                .sub-menu-five {
+                                    li {
+                                        &:hover {
+                                            a {
                                                 color: #ff790d;
                                             }
                                         }
-                                        .home-sub-menu,.home-sub-menu-two{
-                                            li{
-                                                &:hover{
-                                                    a{
+
+                                        .home-sub-menu,
+                                        .home-sub-menu-two {
+                                            li {
+                                                &:hover {
+                                                    a {
                                                         color: #ff790d;
                                                     }
                                                 }
@@ -57,6 +54,7 @@
                                         }
                                     }
                                 }
+
                                 // li hover end 
                                 a {
                                     font-size: 21px;
@@ -64,6 +62,7 @@
                                     display: block;
                                     color: #03030FCC;
                                     text-decoration: none;
+
                                     i {
                                         font-size: 12px;
                                         color: #03030FCC;
@@ -119,7 +118,6 @@
                                                 border-bottom: 1px solid rgb(196, 193, 193);
 
                                                 a {
-                                                    // padding:10px 20px;
                                                     font-size: 17px;
                                                     font-weight: 500;
                                                     color: #03030FCC;
@@ -307,15 +305,15 @@
 
 
                                 &:hover {
-                                    a{
-                                        color:#ff790d;
+                                    a {
+                                        color: #ff790d;
                                     }
-                                    
+
                                     ul {
                                         visibility: visible;
                                         opacity: 1;
                                         animation: myAni .7s;
-                                
+
                                     }
                                 }
                             }
@@ -324,9 +322,10 @@
                 }
 
                 .nav-right {
-                    .menu-bar{
+                    .menu-bar {
                         display: none;
-                        i{
+
+                        i {
                             padding: 12px;
                             background: #ff790d;
                             color: white;
@@ -334,13 +333,15 @@
                             font-weight: 300;
                         }
                     }
+
                     a {
                         color: #03030FCC;
                         font-size: 18px;
                         font-weight: 500;
                         position: relative;
                         padding: 10px;
-                        &:hover{
+
+                        &:hover {
                             color: #ff790d;
                         }
 
@@ -371,21 +372,24 @@
                             position: relative;
                             overflow: hidden;
 
-                            
+
                             i {
                                 color: white;
                                 font-weight: 100;
                                 font-size: 22px;
                             }
-                            &:hover{
-                                &::before{
-                                  height: 100%;
+
+                            &:hover {
+                                &::before {
+                                    height: 100%;
                                 }
-                                .text-btn{
+
+                                .text-btn {
                                     animation: BtnAni .5s forwards;
                                 }
                             }
-                            &::before{
+
+                            &::before {
                                 content: '';
                                 position: absolute;
                                 bottom: 0;
@@ -403,6 +407,7 @@
         }
     }
 }
+//Header End
 
 
 @keyframes myAni {
@@ -414,12 +419,14 @@
         top: 90%;
     }
 }
+
 @keyframes BtnAni {
-    0%{
-       transform: translateY(-150%);
-    top: 100%;
+    0% {
+        transform: translateY(-150%);
+        top: 100%;
     }
-    100%{
+
+    100% {
         transform: translateY(0%);
     }
 }
@@ -436,14 +443,14 @@
     }
 }
 
-
-@include big-tablet{
-    #header{
-        .container-fluid{
-            .row{
-                .all-header{
-                    .nav-right{
-                        button{
+// 1210px
+@include big-tablet {
+    #header {
+        .container-fluid {
+            .row {
+                .all-header {
+                    .nav-right {
+                        button {
 
                             display: none;
                         }
@@ -453,22 +460,74 @@
         }
     }
 }
-@include tablet{
-    #header{
-        .container-fluid{
-            .row{
-                .all-header{
-                    .nav-menu{
+
+// 992px
+@include tablet {
+    #header {
+        position: relative;
+
+        .container-fluid {
+            .row {
+                .all-header {
+                    .nav-menu {
                         display: none;
+                        position: absolute;
+                        left: 0;
+                        top: 100%;
+                        width: 100%;
+                        background-color: white;
+                        transition: .3s ease-in-out;
+                        z-index: 5;
+
+                        ul {
+                            flex-direction: column;
+                            li {
+                                position: relative;
+                                a {
+                                    display: flex !important;
+                                    justify-content: space-between;
+                                }
+
+                                .sub-menu,.sub-menu-two,.sub-menu-three,.sub-menu-four,.sub-menu-five{
+                                    position: absolute;
+                                    left: 0% !important;
+                                    top: 100%;
+                                    width: 100%;
+                                    background-color: white;
+                                    transition: .3s ease-in-out;
+                                    z-index: 6;
+                                    flex-direction: column;
+
+                                    li{
+                                        position: relative;
+                                        .home-sub-menu,.home-sub-menu-two{
+                                            position: absolute;
+                                            left: 0% !important;
+                                            top: 100% !important;
+                                            width: 100%;
+                                            background-color: white;
+                                            transition: .3s ease-in-out;
+                                            z-index: 6;
+                                            flex-direction: column;
+
+                                        }
+                                    }
+                                }
+
+                            }
+                        }
+
                     }
-                    .nav-right{
+
+                    .nav-right {
                         display: flex;
                         align-items: center;
-                        .menu-bar{
+
+                        .menu-bar {
                             display: block;
-                            
                         }
-                        button{
+
+                        button {
                             display: block;
                         }
                     }
@@ -477,23 +536,28 @@
         }
     }
 }
-@include mobile{
-    #header{
-        .container-fluid{
-            .row{
-                .all-header{
-                    .nav-right{
+
+// 768px
+@include mobile {
+    #header {
+        .container-fluid {
+            .row {
+                .all-header {
+                    .nav-right {
                         display: flex;
                         align-items: center;
-                        .menu-bar{
-                            display: block; 
-                            margin-right: 6px; 
+
+                        .menu-bar {
+                            display: block;
+                            margin-right: 6px;
                         }
-                        .phone-number{
-                            display:none;
+
+                        .phone-number {
+                            display: none;
                         }
-                        .Btn-Quote{
-                            display:none;
+
+                        .Btn-Quote {
+                            display: none;
                         }
                     }
                 }

@@ -1,0 +1,224 @@
+#footer {
+    .all-footer {
+        position: relative;
+        padding: 100px 0;
+
+        .footer-background {
+            position: absolute;
+            top: 0;
+            padding: 60px;
+            animation: GirlAni 3s infinite;
+            z-index: -1;
+        }
+
+        .container {
+            .row {
+                .company {
+                    padding: 0px 0px 0px 60px;
+                    .one-company {
+                        .all-company {
+                            a {
+                                img {
+                                    margin-bottom: 40px;
+                                }
+                            }
+
+                            p {
+                                color: #03030FCC;
+                                font-size: 20px;
+                                margin-bottom: 30px;
+                            }
+
+                            h5 {
+                                margin: 20px 0;
+                            }
+
+                            .footer-input {
+                                background-color: #fad3b9;
+                                padding: 15px 10px;
+
+                                form {
+                                    input {
+                                        border: none;
+                                        outline: none;
+                                        background-color: #fad3b9;
+                                        font-size: 17px;
+                                    }
+
+                                    a {
+                                        i {
+                                            font-size: 20px;
+                                            font-weight: 400;
+                                            padding: 10px 10px 10px 15px;
+                                            border-left: 1px solid #7c7c7ccc;
+                                            color: black;
+                                            transition: .3s ease-in-out;
+
+                                            &:hover {
+                                                color: #ff790d;
+
+                                            }
+                                        }
+                                    }
+
+                                }
+
+                            }
+                        }
+                    }
+
+                    .two-company,
+                    .three-company {
+                       margin-left: 1.5rem;
+                        .all-two-company,
+                        .all-three-company {
+
+                            .top-text-two,
+                            .top-text-three {
+                                margin-bottom: 30px;
+
+                                h3 {
+                                    font-size: 24px;
+                                    font-weight: 500;
+                                }
+                            }
+
+                            ul {
+                                padding-left: 0;
+
+                                li {
+                                    list-style: none;
+                                    margin-bottom: 8px;
+
+                                    a {
+                                        color: #03030FCC;
+                                        font-size: 18px;
+                                        font-weight: 500;
+                                        transition: .3s ease-in-out;
+
+                                        &:hover {
+                                            color: #ff790d;
+                                            padding-left: 15px;
+
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .two-company{
+                        display: flex;
+                        justify-content: end;
+                    }
+
+                    .four-company {
+                        .all-four-company {
+                            .top-text-four {
+                                margin-bottom: 30px;
+
+                                h3 {
+                                    font-size: 24px;
+                                    font-weight: 500;
+                                }
+                            }
+
+                            .center-text-four {
+                                p {
+                                    color: #03030FCC;
+                                    font-size: 18px;
+                                    font-weight: 500;
+                                }
+                            }
+
+                            .bottom-four-icon {
+                                ul {
+                                    margin-top: 30px;
+                                    padding-left: 0;
+
+                                    li {
+                                        list-style: none;
+
+                                        a {
+                                            padding: 10px 15px;
+                                            margin-left: 10px;
+                                            border-radius: 50%;
+                                            transition: .3s ease-in-out;
+                                            i {
+                                                color: black;
+                                                font-size: 18px;
+                                            }
+
+                                            &:hover {
+                                                background-color: #ff790d;
+                                            }
+                                        }
+
+                                      
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .privacy{
+                        margin-top: 100px;
+                        .container{
+                            .row{
+                                .end-text-left{
+                                    p{
+                                       color: #03030FCC;
+                                       font-weight: 500;
+                                    }
+                                }
+                                .end-text-right{
+                                    a{
+                                        color: black;
+                                        margin-left: 10px;
+                                        color: #03030FCC;
+                                        font-weight: 500;
+                                        transition: .3s ease-in-out;
+                                        &:hover{
+                                            color: #ff790d;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+
+// 992px
+@include tablet{
+    #footer{
+        .all-footer{
+            .footer-background{
+                display: none;
+            }
+            .container{
+                .row{
+                    .company{
+                        padding: 0 30px;
+                        .two-company{
+                            margin-top: 25px;
+                            justify-content: start;
+                            margin: 0;
+                        }
+                        .three-company{
+                            margin-left: 0;
+                            margin-top: 25px;
+                        }
+                        .four-company{
+                            margin-top: 25px;
+                        }
+                    }
+                  
+                }
+            }
+        }
+    }
+}
